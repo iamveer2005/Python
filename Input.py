@@ -1,7 +1,11 @@
-# there is a function called input used similarily like print 
-# in input case you have to enter the data or anything you want to input in the terminal 
+# WAP to input your name marks enrollment no. College name also there data type 
 
-name = input("My name is :")
-print("Welcome" , name)
+name = input("Enter name :")
+College = input("Enter College name :")
+cgpa = float(input("Enter cgpa"))
+Enrollment = input("enter enrollment no.")
 
-# the value printed is always in string datatype
+print("My name is ", name)
+print("My college name is ", College)
+print("My cgpa for last sem is  ", cgpa)
+print("My enrollment no. is ", Enrollment)
